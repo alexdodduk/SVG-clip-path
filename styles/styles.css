@@ -6,6 +6,7 @@ body {
 img {
     display: block;
     margin: auto;
+    margin-top: 200px;
 }
 
 .cutout {
