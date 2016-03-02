@@ -13,3 +13,14 @@ img {
     -webkit-mask-image: url('../images/tdc.svg');
     -webkit-mask-size: cover;
 }
+
+p {
+    font-family: Georgia, serif;
+    font-size: 36px;
+    font-style: italic;
+    display: block;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2em;
+}
