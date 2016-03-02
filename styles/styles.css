@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    background: #ECEFF1;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.cutout {
+    -webkit-mask-image: url('../images/tdc.svg');
+    -webkit-mask-size: cover;
+}

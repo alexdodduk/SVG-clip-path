@@ -1,1 +1,19 @@
-hello
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SVG clip path experiments</title>
+    <link rel=stylesheet href="styles/styles.css" />
+</head>
+
+<body>
+    <img class="cutout" src="images/bg.gif" alt="background" />
+    <script type="text/javascript">
+        var img = document.querySelector('img');
+        var middle = (window.innerHeight / 2) - (img.clientHeight / 2);
+
+        img.style.marginTop = middle + 'px';
+    </script>
+</body>
+
+</html>
