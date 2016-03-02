@@ -8,15 +8,14 @@
 
 <body>
     <img class="cutout" src="images/bg.gif" alt="background" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
     <script type="text/javascript">
-        window.onload = middle();
+        $(document).ready(function () {
+            var img = $('img');
+            var middle = (window.innerHeight / 2) - (img.outerHeight() / 2);
 
-        function middle() {
-            var img = document.querySelector('img');
-            var middle = (window.innerHeight / 2) - (img.clientHeight / 2);
-
-            img.style.marginTop = middle + 'px';
-        }
+            img.css('margin-top', middle + 'px');
+        });
     </script>
 </body>
 
